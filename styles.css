@@ -1,0 +1,38 @@
+@media (prefers-reduced-motion: no-preference) {
+    * {
+      scroll-behavior: smooth;
+    }
+  }
+  @media (max-width: 768px) {
+    #facts {
+      padding: 5px;
+    }
+}
+header {
+    width: 100%;
+    height: 50px;
+    background-color: gray;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 0;
+  }
+h1 {
+  text-align:center;
+}
+#image {
+  max-width:100%;
+  height:auto;
+  justify-content:center;
+  display:block;
+}
+#tribute-info {
+  font-family:Taoma;
+  font-size:20px;
+}
+ul li{
+  list-style-type:disc;
+  color: #000;
+  padding:10px 0 10px 0;
+  margin-bottom:10px;
+}
